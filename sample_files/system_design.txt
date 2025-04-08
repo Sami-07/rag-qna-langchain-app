@@ -1,0 +1,50 @@
+System Design Fundamentals
+
+1. Scalability Patterns
+- Horizontal Scaling: Adding more machines to handle increased load
+- Vertical Scaling: Adding more resources to existing machines
+- Load Balancing: Distributing traffic across multiple servers
+- Caching: Storing frequently accessed data in memory
+- Database Sharding: Splitting data across multiple databases
+
+2. High Availability
+- Redundancy: Maintaining multiple copies of critical components
+- Failover: Automatic switching to backup systems
+- Replication: Synchronizing data across multiple nodes
+- Health Checks: Monitoring system components
+- Circuit Breakers: Preventing cascading failures
+
+3. Microservices Architecture
+- Service Independence: Each service runs independently
+- API Gateway: Single entry point for all services
+- Service Discovery: Finding available service instances
+- Event-Driven Communication: Using message queues
+- Containerization: Using Docker for deployment
+
+4. Database Design
+- ACID Properties: Atomicity, Consistency, Isolation, Durability
+- CAP Theorem: Consistency, Availability, Partition Tolerance
+- Indexing Strategies: Optimizing query performance
+- Normalization: Reducing data redundancy
+- Denormalization: Improving read performance
+
+5. Security Considerations
+- Authentication: Verifying user identity
+- Authorization: Controlling access to resources
+- Encryption: Protecting data in transit and at rest
+- Rate Limiting: Preventing abuse
+- Input Validation: Preventing injection attacks
+
+6. Performance Optimization
+- CDN: Content Delivery Network for static assets
+- Database Optimization: Query tuning and indexing
+- Caching Strategies: When and what to cache
+- Asynchronous Processing: Handling long-running tasks
+- Resource Pooling: Efficient resource utilization
+
+7. Monitoring and Logging
+- Metrics Collection: System performance data
+- Alerting: Notifications for critical events
+- Log Aggregation: Centralized log management
+- Tracing: Following requests through the system
+- Performance Profiling: Identifying bottlenecks

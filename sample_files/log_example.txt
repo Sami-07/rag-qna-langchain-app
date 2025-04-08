@@ -1,0 +1,10 @@
+[2024-03-15 10:23:45] INFO: System startup initiated
+[2024-03-15 10:23:46] INFO: Loading configuration from /etc/config.yaml
+[2024-03-15 10:23:47] WARNING: Low disk space detected on /dev/sda1 (85% used)
+[2024-03-15 10:23:48] INFO: Database connection established
+[2024-03-15 10:23:49] ERROR: Failed to connect to external API endpoint
+[2024-03-15 10:23:50] INFO: Cache cleared successfully
+[2024-03-15 10:23:51] DEBUG: Processing request ID: 12345
+[2024-03-15 10:23:52] INFO: User authentication successful
+[2024-03-15 10:23:53] ERROR: Invalid input format detected
+[2024-03-15 10:23:54] INFO: System shutdown initiated
