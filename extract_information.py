@@ -34,12 +34,12 @@ def query_data(query):
     print("docs: ", docs)
     as_output = docs[0].page_content
 
-    llm = OpenAI(api_key=api_key_secret)
+    llm = OpenAI(api_key=api_key_secret, temperature=0)
     retriever = vectorStore.as_retriever()
     qa = RetrievalQA.from_chain_type(
         llm=llm, chain_type="stuff", retriever=retriever
     )
-    retriever_output = qa.run(as_output)
+    retriever_output = qa.run(query)
     return as_output, retriever_output
 
 
